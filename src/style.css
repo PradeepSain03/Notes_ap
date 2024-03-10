@@ -1,0 +1,14 @@
+#modal {
+    width: 50%;
+    background: #d3b17b;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: fade-slide-in-from-top 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  #modal::backdrop {
+    background: rgba(0, 0, 0, 0.65) !important;
+  }
+  
